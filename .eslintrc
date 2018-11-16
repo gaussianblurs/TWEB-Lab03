@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "react",
+    "mocha"
+  ],
+  "extends": ["airbnb-base", "plugin:react/all"],
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-max-depth": [2, { "max": 3 }],
+    "react/jsx-sort-props": "off",
+    "react/jsx-max-props-per-line": "off",
+    "comma-dangle": ["error", "never"],
+    "indent": ["error", 2],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "semi": ["warn", "never"],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+  },
+  "env": {
+    "browser": true,
+    "mocha": true
+  }
+}
