@@ -1,0 +1,25 @@
+@import './Default.scss';
+
+.container {
+  width: 1024px;
+}
+
+.search-form {
+  width: 100%;
+
+  .search-owner-group {
+    width: 46%;
+  }
+  .search-repo-group {
+    width: 46%;
+  }
+  .input {
+    width: 100%;
+  }
+  .button-group {
+    width: 8%;
+    button {
+      width: 100%;
+    }
+  }
+}
